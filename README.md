@@ -55,6 +55,9 @@ meansite_visit-mediansite_visit
 #0.7091709
 ```
 
+# Screen Record
+![](https://recordit.co/hImWkzL7Rm)
+
 # Authors
 - Srishti Jain
 
