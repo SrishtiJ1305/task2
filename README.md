@@ -1,5 +1,5 @@
 # Introduction
-This is my work from the Google-CodeIn task Exploring E-commerce data. Below you.
+This is my work from the Google Code-in task Exploring E-commerce data. Below you can see the code with comments.
 
 # Prerequisites
 - R
@@ -22,7 +22,7 @@ ncol(e_commerce)
 #45
 
 #which city had the most visitors and how many? Among Australia cities
-subset_australia=subset(X,X$country=="Australia")
+subset_australia=subset(e_commerce,e_commerce$country=="Australia")
 subset_australia %>% 
   group_by(city) %>% 
   summarise(behavNumVisits= sum(behavNumVisits)) %>% arrange(desc(behavNumVisits))
@@ -56,7 +56,7 @@ meansite_visit-mediansite_visit
 ```
 
 # Screen Record
-![Screen Recording](http://g.recordit.co/hImWkzL7Rm.gif)
+![Screen Recording](http://g.recordit.co/RahvUnnAYD.gif)
 
 # Authors
 - Srishti Jain
