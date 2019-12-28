@@ -1,5 +1,12 @@
-This is my work from the Google-CodeIn task Exploring E-commerce data. Below you
+# Introduction
+This is my work from the Google-CodeIn task Exploring E-commerce data. Below you.
 
+# Prerequisites
+- R
+- RStudio
+
+# Code Description
+The code below can be copied to R and executed as is.
 ```
 # task2 
 library(dplyr)
@@ -46,5 +53,8 @@ meansite_visit = mean(e_commerce_exclude$behavNumVisits)
 mediansite_visit = median(e_commerce_exclude$behavNumVisits)
 meansite_visit-mediansite_visit
 #0.7091709
-
 ```
+
+# Authors
+- Srishti Jain
+
