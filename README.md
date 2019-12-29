@@ -9,7 +9,7 @@ This is my work from the Google Code-in task Exploring E-commerce data. Below yo
 # Code Description
 The code below can be copied to R and executed as is.
 ```
-# task2 
+# Exploring E-commerce data
 library(dplyr)
 
 e_commerce = read.csv("https://raw.githubusercontent.com/FahroziFahrozi/Google-Code-In-Task/master/Task%20Dataset.csv",
